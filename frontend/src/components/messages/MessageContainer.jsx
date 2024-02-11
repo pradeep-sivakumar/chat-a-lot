@@ -20,9 +20,9 @@ const MessageContainer = () => {
 			) : (
 				<>
 					{/* Header */}
-					<div className='bg-slate-500 px-4 py-4 mb-2 ps-16'>
+					<div className='bg-slate-500 px-4 py-4 mb-2 sm:ps-5 ps-16'>
 						{/* <span className='label-text'>To:</span>{" "} */}
-						<span className='text-gray-900 font-bold'>{selectedConversation.fullName}</span>
+						<span className='text-white font-bold'>{selectedConversation.fullName}</span>
 					</div>
 					<Messages />
 					<MessageInput />
