@@ -20,7 +20,7 @@ const MessageContainer = () => {
 			) : (
 				<>
 					{/* Header */}
-					<div className='bg-slate-600 px-4 py-4 mb-2 sm:ps-5 ps-16 fixed w-full z-10 sm:static flex items-center'>
+					<div className='bg-slate-600 px-4 py-4 mb-2 sm:ps-5 ps-16 sticky w-full z-10 sm:static flex items-center'>
 						{/* <span className='label-text'>To:</span>{" "} */}
 						<div className='w-7 sm:w-10 rounded-full'>
 						<img src={selectedConversation.profilePic} alt='user avatar' />
