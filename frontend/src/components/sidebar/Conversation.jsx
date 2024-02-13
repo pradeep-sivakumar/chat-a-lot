@@ -16,7 +16,7 @@ const Conversation = ({ conversation, lastIdx, emoji, setIsSidebarOpen }) => {
 			`}
 				onClick={() => {setSelectedConversation(conversation); setIsSidebarOpen(false)}}
 			>
-				<div className={`avatar ${isOnline ? "online" : ""}`}>
+				<div className={`avatar ${isOnline ? "online" : "offline"}`}>
 					<div className='w-12 rounded-full'>
 						<img src={conversation.profilePic} alt='user avatar' />
 					</div>
