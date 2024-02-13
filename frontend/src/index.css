@@ -8,16 +8,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow :hidden;
 }
-.height-mobile{
-  height: 90%;
-}
+/* .height-mobile{
+  height: 100%;
+} */
 
 /* dark mode looking scrollbar */
 ::-webkit-scrollbar {
